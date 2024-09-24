@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:timePickerDialogTheme">@style/timePickerTheme</item>
+    </style>
+    <style name="timePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#3b555d</item>
+        <item name="colorControlActivated">#3b555d</item>
+        <item name="colorControlHighlight">#BA4B99</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#3b555d</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>         
+        <item name="android:divider">#3b555d</item>
+        <item name="android:radius">15dp</item>
+        <!-- <item name="android:windowBackground">#181818</item> -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/DatePickerTheme.ButtonBarPositiveButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DatePickerTheme.ButtonBarNegativeButtonStyle</item>
+         <!-- <item name="android:textColor">#000000</item> -->
+    </style>
+
+    <style name="DatePickerTheme.ButtonBarNegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+       <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+      <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+        <item name="android:radius">15dp</item>
+        <item name="android:background">#3b555d</item>
+    </style>
+    <style name="DatePickerTheme.ButtonBarPositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+       <item name="android:textColor">#FFFFFF</item>
+         <item name="android:textSize">22sp</item>
+      <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+        <item name="android:radius">15dp</item>
+        <item name="android:background">#3b555d</item>
+    </style>
+</resources>

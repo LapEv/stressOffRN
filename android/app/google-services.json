@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498912384610",
+    "project_id": "meditationsounds-c0cf8",
+    "storage_bucket": "meditationsounds-c0cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498912384610:android:3e8b02c3f367685b15e33b",
+        "android_client_info": {
+          "package_name": "com.stressoffrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498912384610-c6qjbemkurchufs2u80nvltcjdjqbvf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT6tEbcaGh9KhUir14hs7oSGuBbD-YiEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498912384610-c6qjbemkurchufs2u80nvltcjdjqbvf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
